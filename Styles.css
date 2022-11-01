@@ -552,7 +552,7 @@ line-height: 50px;
 .footer {
     background-color: white;
     padding:15px;
-    height:100px;
+    height:80px;
     color:#737171;
     display:flex;
     flex-direction: row
@@ -580,4 +580,5 @@ h2 {
     line-height:40px;
     padding-top:12px;
     padding-left:855px;
+    padding-bottom:10px;
 }
