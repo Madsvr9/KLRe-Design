@@ -235,13 +235,13 @@ color: #DFE1EA;
 
   }
 
-  .btn {
+  #CU {
 	background-image: linear-gradient(to left, #DFE1EA, #6072B4,#9DA0AB);
 	border-radius: 40px;
     box-sizing: border-box;
 	color: #DFE1EA;
 	display: block;
-	font: 1.125rem 'Roboto';
+	font: 1.125rem '';
     font-weight: bold;
 	height: 60px;
 	margin: 0 auto;
@@ -255,11 +255,11 @@ color: #DFE1EA;
     border-width: 2px;
 }
 
-.btn:hover {
+#CU:hover {
 	color: #2E396C;
 }
 
-.btn span {
+#CU span {
 	align-items: center;
 	background: #2E396C;
 	border-radius: 40px;
@@ -270,7 +270,7 @@ color: #DFE1EA;
 	width: 100%;
 }
 
-.btn:hover span {
+#CU:hover span {
 	background: transparent;
 }
   
@@ -319,3 +319,265 @@ text-align: center;
 letter-spacing: 1px;
 color: #737373;
   }
+
+ .button {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+position: absolute;
+width: 687px;
+height: 147px;
+top: 1025px;
+
+ }
+
+ .row {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 350px;
+
+width: 687px;
+height: 147px;
+
+ }
+
+ .col-md-4 #HC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 10px;
+    
+    width: 300px;
+    height: 100px;
+    
+    background: #DFE1EA;
+    /* SHADOW */
+    
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 100px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #2E396C;
+
+    
+   
+ }
+
+ .col-md-4 #LE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 10px;
+    
+    width: 300px;
+    height: 100px;
+    
+    background: #DFE1EA;
+    /* SHADOW */
+    
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 100px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+/* text-color */
+
+color: #2E396C;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+ }
+
+ .col-md-4 #HC:hover {
+    background: #2E396C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 13px 19px rgba(0, 0, 0, 0.07);
+    color:#DFE1EA;
+ }
+
+ .col-md-4 #LE:hover {
+    background: #2E396C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 13px 19px rgba(0, 0, 0, 0.07);
+    color:#DFE1EA;
+ }
+
+
+ /*AboutOurFirm*/
+
+ .AbOurFirm {
+    background-color: #2E396C;
+    padding:10px;
+    margin-top: 50px;
+    height:860px;
+ }
+
+ .myheader {
+    text-align:center;
+    align-items:center;
+    color:#DFE1EA;
+    padding:30px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+ }
+
+ .flip-card {
+    background-color: #2E396C;
+    width: 305px;
+    height: 498px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #2E396C;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #DFE1EA;
+    color: #2E396C;
+    transform: rotateY(180deg);
+    padding:10px;
+  }
+
+  #Nat {
+    left:200px;
+  }
+
+  #Cfocused {
+    left:570px;
+  }
+
+  #Ttested {
+    right:200px;
+  }
+
+
+
+  #MOA {
+	background-image: linear-gradient(to left, #DFE1EA, #6072B4,#9DA0AB);
+	border-radius: 40px;
+    box-sizing: border-box;
+	color: #DFE1EA;
+	display: block;
+	font: 1.125rem '';
+    font-weight: bold;
+	height: 60px;
+	margin: 0 auto;
+	padding: 4px;
+	position: relative;
+  text-decoration: none;
+	width: 200px;
+	z-index: 2;
+    top: 600px;
+    right: 0px;
+    border-width: 2px;
+}
+
+#MOA:hover {
+	color: #2E396C;
+}
+
+#MOA span {
+	align-items: center;
+	background: #2E396C;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+}
+
+#MOA:hover span {
+	background: transparent;
+}
+
+.footer {
+    background-color: white;
+    padding:15px;
+    height:100px;
+    color:#737171;
+    display:flex;
+    flex-direction: row
+}
+.footer p {
+    padding:5px;
+    padding-right:20px;
+    line-height: 40px;;
+}
+.footer i {
+    padding:5px;
+    padding-top:12px;
+}
+
+.footer img {
+    width: 40px;
+    height:40px;
+    padding:5px;
+}
+
+h2 {
+    font-family: Lato;
+    font-weight: normal;
+    font-size:medium;
+    line-height:40px;
+    padding-top:12px;
+    padding-left:855px;
+}
